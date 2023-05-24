@@ -11,12 +11,19 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container">
+      <div class="container header-flex">
         <nav class="header-nav">
           <a href="./index.html" class="header-link-logo link"
             >Web<span class="header-logo">Studio</span></a
@@ -33,15 +40,16 @@
             </li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="header-address-list list">
-            <li>
-              <a class="header-address link" href="mailto:info@devstudio.com"
+
+        <address class="header-address">
+          <ul class="address-list list">
+            <li class="address-item">
+              <a class="address link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
-              <a class="header-address link" href="tel:+110001111111"
+            <li class="address-item">
+              <a class="address link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -52,8 +60,9 @@
     <main>
       <!-- Section-Filters -->
       <section class="filters">
-        <h1 hidden="">Project Cards</h1>
         <div class="container">
+          <h1 class="visually-hidden">Project Cards</h1>
+
           <ul class="filters-list list">
             <li class="filters-item">
               <button class="filters-btn" type="button">All</button>
@@ -83,10 +92,12 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-title subtitle">
-                  Banking App Interface Concept
-                </h2>
-                <p class="project-text text">App</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="project-text text">App</p>
+                </div>
               </a>
             </li>
             <li class="project-item">
@@ -98,8 +109,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-title subtitle">Cashless Payment</h2>
-                <p class="project-text text">Marketing</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">Cashless Payment</h2>
+                  <p class="project-text text">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="project-item">
@@ -111,8 +124,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-title subtitle">Meditation App</h2>
-                <p class="project-text text">App</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">Meditation App</h2>
+                  <p class="project-text text">App</p>
+                </div>
               </a>
             </li>
             <li class="project-item">
@@ -124,8 +139,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-title subtitle">Taxi Service</h2>
-                <p class="project-text text">Marketing</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">Taxi Service</h2>
+                  <p class="project-text text">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="project-item">
@@ -137,8 +154,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-tile subtitle">Screen Illustrations</h2>
-                <p class="project-text text">Design</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">Screen Illustrations</h2>
+                  <p class="project-text text">Design</p>
+                </div>
               </a>
             </li>
             <li class="project-item">
@@ -150,8 +169,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-title subtitle">Online Courses</h2>
-                <p class="project-text text">Marketing</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">Online Courses</h2>
+                  <p class="project-text text">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="project-item">
@@ -163,10 +184,12 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-title subtitle">
-                  Instagram Stories Concept
-                </h2>
-                <p class="project-text text">Design</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">
+                    Instagram Stories Concept
+                  </h2>
+                  <p class="project-text text">Design</p>
+                </div>
               </a>
             </li>
             <li class="project-item">
@@ -178,8 +201,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-title subtitle">Organic Food</h2>
-                <p class="project-text text">Web Site</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">Organic Food</h2>
+                  <p class="project-text text">Web Site</p>
+                </div>
               </a>
             </li>
             <li class="project-item">
@@ -191,8 +216,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="project-title subtitle">Fresh Coffee</h2>
-                <p class="project-text text">Web Site</p>
+                <div class="project-wrap">
+                  <h2 class="project-title subtitle">Fresh Coffee</h2>
+                  <p class="project-text text">Web Site</p>
+                </div>
               </a>
             </li>
           </ul>
