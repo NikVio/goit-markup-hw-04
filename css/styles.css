@@ -132,6 +132,8 @@ img {
 
 .header {
   border-bottom: 1px solid var(--header-border-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-flex {
@@ -213,6 +215,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/bg_img/hero_bg.jpg);
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -389,6 +392,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #f4f4fd;
 }
 
 .teamcards-icon {
@@ -495,17 +499,17 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
+.project-link {
+  display: block;
+}
+
 .project-wrap {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 
-.project-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
+.project-link:hover,
 .project-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -594,6 +598,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #f4f4fd;
 }
 
 .footer-icon {
